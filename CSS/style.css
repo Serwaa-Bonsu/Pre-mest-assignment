@@ -1,0 +1,92 @@
+body{
+    margin: 0 auto;
+    background-color:hsl(30, 38%, 92%);
+  
+}
+
+.card{
+    display: flex;
+    width: 440px;
+    height: 350px;
+    margin: 100px auto 0 auto;
+    background-color: white;
+    border:0.1px solid hsl(30, 38%, 92%);
+    border-radius: 10px;
+    
+}
+
+#image{
+    width: 220px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+#message{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#product{
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    font-family: sans-serif;
+}
+
+#Gab{
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(212, 21%, 14%);
+    padding-top: 2px;
+    line-height: 25px;
+    margin-top: -6px;
+    font-family: 'Fraunces', serif;
+}
+
+#description{
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    margin-top: -6px;
+    font-family: sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#price{
+    display: flex;
+    margin-top: 20px;
+}
+
+#new-price{
+    font-size: 30px;
+    font-family: 'Fraunces', serif; 
+    font-weight: 700;
+    color:hsl(158, 40%, 32%) ;
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
+
+#old-price{
+    font-size: 15px;
+    padding-left: 25px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%) ;
+    font-family: sans-serif;
+    padding-top: -20px;
+}
+
+#btn{
+    background-color: hsl(159, 39%, 25%);
+    border: none;
+    border-radius: 5px;
+    width: 170px;
+    color: #fff;
+    padding: 8px 30px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+
+  
+
+}
